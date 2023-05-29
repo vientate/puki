@@ -1,0 +1,31 @@
+{
+ "doctors": [
+    {
+        "id": 2,
+        "experience": 10,
+        "office": 15,
+        "name": пизка,
+        "post": "кристина",
+        "skill": "ауее",
+        "specialization": "секс",
+    },
+    {
+        "id": 1,
+        "experience": 15,
+        "office": 101,
+        "name": хуй,
+        "post": "кирилл",
+        "skill": "поддельная",
+        "specialization": "нет",
+    },
+    {
+        "id": 3,
+        "experience": 7,
+        "office": 31,
+        "name": апидор,
+        "post": "петя",
+        "skill": "лллллла",
+        "specialization": "оовоаооао",
+    }
+  }
+}

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+<doctors>
+  <doctor>
+    <id>2</id>
+    <experience>10</experience>
+    <office>15</office>
+    <name>пизка</name>
+    <post>кристина</post>
+    <skill>ауее</skill>
+    <specialization>секс</specialization>
+  </doctor>,
+  <doctor>
+    <id>1</id>
+    <experience>15</experience>
+    <office>101</office>
+    <name>хуй</name>
+    <post>кирилл</post>
+    <skill>поддельная</skill>
+    <specialization>нет</specialization>
+  </doctor>,
+  <doctor>
+    <id>3</id>
+    <experience>7</experience>
+    <office>31</office>
+    <name>апидор</name>
+    <post>петя</post>
+    <skill>лллллла</skill>
+    <specialization>оовоаооао</specialization>
+  </doctor>
+</doctors>
