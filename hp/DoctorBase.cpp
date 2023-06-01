@@ -31,8 +31,8 @@ DoctorBase::~DoctorBase()
 }
 
 void DoctorBase::addDoctor() {
-	int id, office;
-	string name, post, skill, specialization, experience;
+	int id, office, experience;
+	string name, post, skill, specialization;
 	cout << "Введите id врача: ";
 	cin >> id;
 	cin.ignore(numeric_limits<streamsize>::max(), '\n');
@@ -79,7 +79,8 @@ void DoctorBase::printResult(LinkedList* doctorList)
 {
 	Node* current = doctorList->head;
 	while (current != nullptr) {
-		cout << current->data->getId() << ". " << "Должность врача : " << current->data->getPost() << endl << "ФИО врача: " << current->data->getName() << endl << "Специальность: " << current->data->getSpecialization() << endl << "Квалификация: " << current->data->getSkill() << endl << "Стаж:" << current->data->getExperience() << endl << "Кабинет: " << current->data->getOffice() << endl << endl;;
+		cout << current->data->getId() << ". " << "Должность врача : " << current->data->getPost() << endl << "ФИО врача: " << current->data->getName() << endl << 
+			"Специальность: " << current->data->getSpecialization() << endl << "Квалификация: " << current->data->getSkill() << endl << "Стаж:" << current->data->getExperience() << " лет" << endl << "Кабинет: " << current->data->getOffice() << endl << endl;;
 		current = current->next;
 	}
 }

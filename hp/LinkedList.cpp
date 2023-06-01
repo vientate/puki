@@ -44,9 +44,9 @@ void LinkedList::LoadFromFile(string filename) {
 		getline(ss, experience, ';');
 		getline(ss, office, ';');
 		int Id = stoi(id);
-		double Experience = stoi(experience);
-		double Office = stoi(office);
-		Doctor* doctor = new Doctor(Id, Office, experience, name, post, skill, specialization);
+		int Experience = stoi(experience);
+		int Office = stoi(office);
+		Doctor* doctor = new Doctor(Id, Office, Experience, name, post, skill, specialization);
 		add(doctor);
 	}
 	infile.close();
@@ -203,7 +203,7 @@ Node* LinkedList::findByExperience(int experience)
 	Node* current = head;
 	while (current != nullptr)
 	{
-		if (current->data->getExperience() == experience_str)
+		if (current->data->getExperience() == stoi(experience_str))
 			return current;
 		current = current->next;
 	}

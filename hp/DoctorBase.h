@@ -2,15 +2,11 @@
 #include "SubMenu.h"
 #include "MenuItem.h"
 #include "LinkedList.h"
-//#include "hp.h"
 #include "SaveFormat.h"
 #include "JsonFormat.h"
 #include "XmlFormat.h"
 #include <iostream>
 #include <sstream>
-#include <locale>
-#include <regex>
-#include <limits>
 #include <codecvt>
 
 class DoctorBase
